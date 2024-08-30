@@ -1,0 +1,28 @@
+:root {
+  --main-color: #8DBDFF;
+  --main-text-color: #444C62;
+  --secondary-bg: antiquewhite;
+}
+
+* {
+  box-sizing: border-box !important;
+}
+
+.center-content-y {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+
+button {
+  border: none;
+}
+
+.custom-btn {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: var(--main-color);
+}

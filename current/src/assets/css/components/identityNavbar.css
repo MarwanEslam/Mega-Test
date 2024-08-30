@@ -1,0 +1,15 @@
+.logo-nav {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width: 60px;
+
+    img {
+        width: 200px;
+        max-width: 100%;
+    }
+
+    img:nth-child(1) {
+        border-radius: 50%;
+    }
+}
