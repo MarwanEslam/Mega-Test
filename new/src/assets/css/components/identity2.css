@@ -1,0 +1,18 @@
+/* Style for Identity component */
+.main-imgs {
+    display: flex;
+    /* flex-direction: column; */ /* 1 */
+    align-items: center;
+    gap: 5px; /* 1 */
+    width: 60px; /* 1 */
+
+}
+
+.main-imgs img {
+    width: 200px;
+    max-width: 100%;
+}
+
+.main-imgs img:nth-child(1) {
+    border-radius: 50%;
+}

@@ -1,0 +1,30 @@
+.main-exam-container {
+    margin-top: 10px;
+    display: flex;
+    padding: 0 !important;
+    flex-direction: column;
+    border: 5px solid var(--main-text-color);
+    min-width: 50% !important;
+    max-width: 90% !important;
+
+    .question {
+        background-color: var(--main-color);
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 5px solid var(--main-text-color);
+    }
+
+    .choices-con {
+        background-color: var(--secondary-bg);
+        .answer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 5px;
+            background-color: #fff;
+            margin: 5px;
+        }
+    }
+}
