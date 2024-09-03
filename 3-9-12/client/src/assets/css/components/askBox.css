@@ -1,0 +1,18 @@
+.ask-box {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    min-width: 350px;
+    display: flex;
+    flex-direction: column;
+
+    .two-choices {
+        display: flex;
+        gap: 10px;
+
+        button {
+            display: block;
+            width: 50%;
+        }
+    }
+}
