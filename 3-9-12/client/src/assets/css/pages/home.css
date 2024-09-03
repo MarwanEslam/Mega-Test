@@ -11,8 +11,8 @@
         padding: 20px;
         flex-grow: 1;
 
-        .massage:nth-child(2) {
-            margin-block: 10px;
+        .massage {
+            margin-block: 15px;
         }
 
         button {
